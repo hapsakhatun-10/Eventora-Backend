@@ -1,0 +1,42 @@
+{
+  "name": "evento-server",
+  "version": "1.0.0",
+  "description": "Evento event management backend",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "tsx src/seed.ts",
+    "seed:reset": "tsx src/seed.ts --reset"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.5.0",
+    "mongoimport": "^1.0.6",
+    "multer": "^2.2.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "stripe": "^22.3.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/multer": "^2.2.0",
+    "@types/node": "^26.1.1",
+    "@types/passport": "^1.0.17",
+    "@types/passport-google-oauth20": "^2.0.17",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2"
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "_id": "6651a1b2c3d4e5f6a7b8c9d0",
+    "name": "Sarah Chen",
+    "email": "sarah.chen@example.com",
+    "password": "$2b$10$hashedpassword1",
+    "avatar": "https://i.pravatar.cc/150?u=sarah.chen",
+    "provider": "local",
+    "role": "user",
+    "createdAt": "2024-01-15T08:30:00.000Z"
+  },
+  {
+    "_id": "6651a1b2c3d4e5f6a7b8c9d1",
+    "name": "Marcus Johnson",
+    "email": "marcus.johnson@example.com",
+    "password": "$2b$10$hashedpassword2",
+    "avatar": "https://i.pravatar.cc/150?u=marcus.johnson",
+    "provider": "local",
+    "role": "user",
+    "createdAt": "2024-02-20T10:15:00.000Z"
+  },
+  {
+    "_id": "6651a1b2c3d4e5f6a7b8c9d2",
+    "name": "Elena Rodriguez",
+    "email": "elena.rodriguez@example.com",
+    "password": "$2b$10$hashedpassword3",
+    "avatar": "https://i.pravatar.cc/150?u=elena.rodriguez",
+    "provider": "local",
+    "role": "user",
+    "createdAt": "2024-03-10T14:45:00.000Z"
+  },
+  {
+    "_id": "6651a1b2c3d4e5f6a7b8c9d3",
+    "name": "David Kim",
+    "email": "david.kim@example.com",
+    "password": "$2b$10$hashedpassword4",
+    "avatar": "https://i.pravatar.cc/150?u=david.kim",
+    "provider": "local",
+    "role": "user",
+    "createdAt": "2024-04-05T09:00:00.000Z"
+  },
+  {
+    "_id": "6651a1b2c3d4e5f6a7b8c9d4",
+    "name": "Aisha Patel",
+    "email": "aisha.patel@example.com",
+    "password": "$2b$10$hashedpassword5",
+    "avatar": "https://i.pravatar.cc/150?u=aisha.patel",
+    "provider": "local",
+    "role": "user",
+    "createdAt": "2024-05-12T11:20:00.000Z"
+  }
+]
