@@ -174,7 +174,7 @@ router.get(
   (req: Request, res: Response) => {
     const user = req.user as any;
     const token = generateToken({
-      userId: user._id.toString(),
+      userId: user.userId,
       name: user.name,
       email: user.email,
     });
