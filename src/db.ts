@@ -16,7 +16,11 @@ export let ticketCollection: Collection<TicketDocument>;
 export let followCollection: Collection<FollowDocument>;
 export let favoriteCollection: Collection<FavoriteDocument>;
 
+let isConnected = false;
+
 export async function connectDB(): Promise<void> {
+  if (isConnected) return;
+
   await client.connect();
   const db = client.db(DB_NAME);
   eventCollection = db.collection<EventDocument>("events");
@@ -39,6 +43,6 @@ export async function connectDB(): Promise<void> {
     favoriteCollection.createIndex({ userId: 1 }),
   ]);
 
-  await client.db("admin").command({ ping: 1 });
+  isConnected = true;
   console.log("Connected to MongoDB");
 }
